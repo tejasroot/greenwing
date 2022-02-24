@@ -1,11 +1,11 @@
 <?php
 
-namespace Greenwing\Technology\Model;
+namespace tejasroot\greenwing\Model;
  
 /**
  * @codeCoverageIgnore
  */
-class CategoryProductLink extends \Magento\Framework\Api\AbstractExtensibleObject implements \Greenwing\Technology\Api\Data\CategoryProductLinkInterface
+class CategoryProductLink extends \Magento\Framework\Api\AbstractExtensibleObject implements \tejasroot\greenwing\Api\Data\CategoryProductLinkInterface
 {
     /**
      * #@+

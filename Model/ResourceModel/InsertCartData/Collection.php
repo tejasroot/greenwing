@@ -8,10 +8,10 @@
  * @copyright  1997-2005 The Greenwing Technology
  */
 
-namespace Greenwing\Technology\Model\ResourceModel\InsertCartData;
+namespace tejasroot\greenwing\Model\ResourceModel\InsertCartData;
 
-use Greenwing\Technology\Model\InsertCartData as ModelInsertCartData;
-use Greenwing\Technology\Model\ResourceModel\InsertCartData as ResourceInsertCartData;
+use tejasroot\greenwing\Model\InsertCartData as ModelInsertCartData;
+use tejasroot\greenwing\Model\ResourceModel\InsertCartData as ResourceInsertCartData;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Greenwing\Technology\Observer;
+namespace tejasroot\greenwing\Observer;
 
 class CheckoutRedirect implements \Magento\Framework\Event\ObserverInterface
 {

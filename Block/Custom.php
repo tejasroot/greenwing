@@ -1,6 +1,6 @@
 <?php
 
-namespace Greenwing\Technology\Block;
+namespace tejasroot\greenwing\Block;
 
 class Custom extends \Magento\Framework\View\Element\Template
 {

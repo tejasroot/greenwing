@@ -8,12 +8,12 @@
  * @copyright  1997-2005 The Greenwing Technology
  */
 
-namespace Greenwing\Technology\Model;
+namespace tejasroot\greenwing\Model;
 
 class InsertData extends \Magento\Framework\Model\AbstractModel
 {
     public function _construct()
     {
-        $this->_init("Greenwing\Technology\Model\ResourceModel\InsertData");
+        $this->_init("tejasroot\greenwing\Model\ResourceModel\InsertData");
     }
 }

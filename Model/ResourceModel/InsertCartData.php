@@ -8,7 +8,7 @@
  * @copyright  1997-2005 The Greenwing Technology
  */
 
-namespace Greenwing\Technology\Model\ResourceModel;
+namespace tejasroot\greenwing\Model\ResourceModel;
 
 class InsertCartData extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {

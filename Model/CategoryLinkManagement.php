@@ -1,6 +1,6 @@
 <?php
 
-namespace Greenwing\Technology\Model;
+namespace tejasroot\greenwing\Model;
 
 use Magento\Framework\App\RequestInterface;
 use Magento\Checkout\Model\Cart;
@@ -16,7 +16,7 @@ const CUSTOMERID = 'CustomerID';
  * Class CategoryLinkManagement
  * Managing Rest Api for getting punchout
  */
-class CategoryLinkManagement implements \Greenwing\Technology\Api\CategoryLinkManagementInterface
+class CategoryLinkManagement implements \tejasroot\greenwing\Api\CategoryLinkManagementInterface
 {
     protected $pgFactory;
 
@@ -104,7 +104,7 @@ class CategoryLinkManagement implements \Greenwing\Technology\Api\CategoryLinkMa
     protected $categoryRepository;
  
     /**
-     * @var \Greenwing\Technology\Api\Data\CategoryProductLinkInterfaceFactory
+     * @var \tejasroot\greenwing\Api\Data\CategoryProductLinkInterfaceFactory
      */
     protected $productLinkFactory;
 
@@ -114,11 +114,11 @@ class CategoryLinkManagement implements \Greenwing\Technology\Api\CategoryLinkMa
      * CategoryLinkManagement constructor.
      *
      * @param \Magento\Catalog\Api\CategoryRepositoryInterface                   $categoryRepository
-     * @param \Greenwing\Technology\Api\Data\CategoryProductLinkInterfaceFactory $productLinkFactory
+     * @param \tejasroot\greenwing\Api\Data\CategoryProductLinkInterfaceFactory $productLinkFactory
      */
     public function __construct(
         \Magento\Catalog\Api\CategoryRepositoryInterface $categoryRepository,
-        \Greenwing\Technology\Api\Data\CategoryProductLinkInterfaceFactory $productLinkFactory,
+        \tejasroot\greenwing\Api\Data\CategoryProductLinkInterfaceFactory $productLinkFactory,
         \Magento\Framework\App\Action\Context $context,
         \Magento\Store\Model\StoreManagerInterface $storeManager,
         \Magento\Framework\App\RequestInterface $request,
@@ -131,8 +131,8 @@ class CategoryLinkManagement implements \Greenwing\Technology\Api\CategoryLinkMa
         \Magento\UrlRewrite\Model\UrlRewriteFactory $urlRewriteFactory,
         \Magento\UrlRewrite\Model\UrlRewrite $urlRewrite,
         \Magento\Framework\Session\SessionManagerInterface $session,
-        \Greenwing\Technology\Model\InsertDataFactory  $insertData,
-        \Greenwing\Technology\Model\InsertCartDataFactory  $insertCartData,
+        \tejasroot\greenwing\Model\InsertDataFactory  $insertData,
+        \tejasroot\greenwing\Model\InsertCartDataFactory  $insertCartData,
         \Magento\Framework\Controller\ResultFactory $result,
         \Psr\Log\LoggerInterface $logger
     ) {

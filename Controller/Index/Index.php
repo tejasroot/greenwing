@@ -8,12 +8,12 @@
  * @copyright  1997-2005 The Greenwing Technology
  */
 
-namespace Greenwing\Technology\Controller\Index;
+namespace tejasroot\greenwing\Controller\Index;
 
 use Magento\Framework\App\RequestInterface;
 use Magento\Checkout\Model\Cart;
-use Greeenwing\Technology\Model\InsertDataFactory;
-use Greeenwing\Technology\Model\InsertCartDataFactory;
+use Gtejasroot\greenwing\Model\InsertDataFactory;
+use tejasroot\greenwing\Model\InsertCartDataFactory;
 use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\App\Request\InvalidRequestException;
 
@@ -121,8 +121,8 @@ class Index extends \Magento\Framework\App\Action\Action
         \Magento\UrlRewrite\Model\UrlRewriteFactory $urlRewriteFactory,
         \Magento\UrlRewrite\Model\UrlRewrite $urlRewrite,
         \Magento\Framework\Session\SessionManagerInterface $session,
-        \Greenwing\Technology\Model\InsertDataFactory  $insertData,
-        \Greenwing\Technology\Model\InsertCartDataFactory  $insertCartData,
+        \tejasroot\greenwing\Model\InsertDataFactory  $insertData,
+        \tejasroot\greenwing\Model\InsertCartDataFactory  $insertCartData,
         \Magento\Framework\Controller\ResultFactory $result,
         \Psr\Log\LoggerInterface $logger
     ) {

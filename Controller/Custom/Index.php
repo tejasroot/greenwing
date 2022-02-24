@@ -1,6 +1,6 @@
 <?php
 
-namespace Greenwing\Technology\Controller\Custom;
+namespace tejasroot\greenwing\Controller\Custom;
 
 class Index extends \Magento\Framework\App\Action\Action
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Greenwing\Technology\Api;
+namespace tejasroot\greenwing\Api;
  
 /**
  * @api
